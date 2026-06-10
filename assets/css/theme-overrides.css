@@ -1,0 +1,185 @@
+/*
+ * Joint Group – Theme Color Overrides
+ * Palette:
+ *   Dark Blue  #1C2539  rgba(28, 37, 57, 1)
+ *   White      #FFFFFF  rgba(255, 255, 255, 1)
+ *   Light Grey #F5F7FA  rgba(245, 247, 250, 1)
+ *   Orange     #ED5A28  rgba(237, 90, 40, 1)
+ */
+
+
+/* ============================================================
+   SECTION BACKGROUNDS — alternating white / light-grey
+   ============================================================ */
+
+/* Light-grey sections */
+.running-content,
+.section-contact-form,
+.multicolumn-page {
+  background-color: rgba(245, 247, 250, 1);
+}
+
+/* Give light-grey sections padding so the bg fills the full block */
+.running-content {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* About page – text blocks in light grey */
+.image-text-alt {
+  background-color: rgba(245, 247, 250, 1);
+}
+
+/* Why-Choose-Us / Promotion section – light grey */
+.promotion {
+  background-color: rgba(245, 247, 250, 1);
+}
+
+
+/* ============================================================
+   SERVICE CARDS  (multicolumn-card)
+   ============================================================ */
+
+/* Default card background – light grey */
+.multicolumn .multicolumn-card {
+  --color-background: rgba(245, 247, 250, 1);
+}
+
+/* Card icon background – white inside grey card */
+.multicolumn .card-icon {
+  --color-background: rgba(255, 255, 255, 1);
+}
+
+/* On services page the card is already grey; icon uses white */
+.multicolumn-page .multicolumn-card {
+  --color-background: rgba(245, 247, 250, 1);
+}
+
+.multicolumn-page .multicolumn-card .card-icon {
+  --color-background: rgba(255, 255, 255, 1);
+}
+
+/* Hover → orange fill */
+.multicolumn .multicolumn-card:focus,
+.multicolumn .multicolumn-card:hover {
+  --color-background: rgba(237, 90, 40, 1);
+  --color-foreground: rgba(255, 255, 255, 1);
+  --color-foreground-heading: rgba(255, 255, 255, 1);
+}
+
+/* Icon stays white on orange hover */
+.multicolumn .multicolumn-card:focus .card-icon,
+.multicolumn .multicolumn-card:hover .card-icon {
+  --color-background: rgba(255, 255, 255, 1);
+  --color-foreground: rgba(237, 90, 40, 1);
+}
+
+
+/* ============================================================
+   PORTFOLIO / RECENT PROJECTS
+   ============================================================ */
+
+/* Project button (arrow button over project image) – orange */
+.project-media-button.button--primary {
+  background-color: rgba(237, 90, 40, 1);
+  border-color: rgba(237, 90, 40, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.project-media-button.button--primary:hover,
+.project-media-button.button--primary:focus {
+  background-color: rgba(200, 65, 20, 1);
+  border-color: rgba(200, 65, 20, 1);
+}
+
+/* Project content card – light-grey background */
+.project-content {
+  background-color: rgba(245, 247, 250, 1) !important;
+}
+
+
+/* ============================================================
+   CONTACT PAGE
+   ============================================================ */
+
+/* Section background – light grey */
+.section-contact-form {
+  background-color: rgba(245, 247, 250, 1);
+}
+
+/* Contact-box (white card with shadow) stays white */
+.contact-box {
+  background: rgba(255, 255, 255, 1) !important;
+}
+
+/* Icon boxes inside contact info – orange instead of dark navy */
+.card-icon-text .svg-wrapper rect {
+  fill: rgba(237, 90, 40, 1);
+}
+
+
+/* ============================================================
+   PROMOTION / WHY-CHOOSE-US ICONS
+   ============================================================ */
+
+/* Circle icons with hardcoded fill – swap to orange */
+.promotion-item svg circle {
+  fill: rgba(237, 90, 40, 1);
+}
+
+
+/* ============================================================
+   SCROLL-TO-TOP BUTTON
+   ============================================================ */
+
+.scroll-to-top {
+  background-color: rgba(237, 90, 40, 1) !important;
+  box-shadow: 0px 4px 22px rgba(237, 90, 40, 0.4) !important;
+}
+
+
+/* ============================================================
+   PRICING CARDS (if/when added)
+   Basic   → light grey bg
+   Standard → white bg
+   Premium  → dark blue bg + white text
+   ============================================================ */
+
+.pricing-card.pricing-basic {
+  background-color: rgba(245, 247, 250, 1);
+}
+
+.pricing-card.pricing-standard {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.pricing-card.pricing-premium {
+  background-color: rgba(28, 37, 57, 1);
+  --color-foreground: rgba(255, 255, 255, 1);
+  --color-foreground-heading: rgba(255, 255, 255, 1);
+}
+
+
+/* ============================================================
+   ABOUT PAGE — mission/vision highlight blocks
+   ============================================================ */
+
+.about-highlight,
+.mission-block,
+.vision-block {
+  background-color: rgba(245, 247, 250, 1);
+  border-radius: 10px;
+  padding: 32px;
+}
+
+
+/* ============================================================
+   INPUT BORDERS — contact form
+   ============================================================ */
+
+.form input:focus,
+.form textarea:focus,
+.form select:focus {
+  border-color: rgba(237, 90, 40, 0.6) !important;
+  outline-color: rgba(237, 90, 40, 0.3) !important;
+}

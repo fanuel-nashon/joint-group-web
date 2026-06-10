@@ -55,6 +55,10 @@
         --color-border-hover: rgba(93, 102, 111, 0.5);
         --color-shadow: rgba(0, 0, 0, 1);
         --color-overlay: rgba(28, 37, 57, 0.6);
+        /* Brand Accent Colors */
+        --color-orange: rgba(237, 90, 40, 1);
+        --color-orange-hover: rgba(200, 65, 20, 1);
+        --color-light-grey: rgba(245, 247, 250, 1);
         /* Buttons */
         --font-button-size: 16px;
         --font-button-size-mobile: 16px;
@@ -64,28 +68,28 @@
         --style-button-slim-height-mobile: 40px;
         --style-cta-underline-offset: 5px;
         --style-cta-underline-thickness: 1px;
-        /* Colors - Primary Button */
+        /* Colors - Primary Button (Orange) */
         --color-primary-button-text: rgba(255, 255, 255, 1);
-        --color-primary-button-background: rgba(32, 40, 45, 1);
-        --color-primary-button-border: rgba(32, 40, 45, 1);
-        --color-primary-button-icon: rgba(28, 37, 57, 1);
+        --color-primary-button-background: rgba(237, 90, 40, 1);
+        --color-primary-button-border: rgba(237, 90, 40, 1);
+        --color-primary-button-icon: rgba(237, 90, 40, 1);
         --color-primary-button-icon-background: rgba(255, 255, 255, 1);
-        --color-primary-button-hover-text: rgba(32, 40, 45, 1);
-        --color-primary-button-hover-background: rgba(255, 255, 255, 1);
-        --color-primary-button-hover-border: rgba(32, 40, 45, 1);
-        --color-primary-button-hover-icon: rgba(255, 255, 255, 1);
-        --color-primary-button-hover-icon-background: rgba(28, 37, 57, 1);
-        /* Colors - Secondary Button */
-        --color-secondary-button-text: rgba(32, 40, 45, 1);
-        --color-secondary-button-background: rgba(255, 255, 255, 1);
-        --color-secondary-button-border: rgba(255, 255, 255, 1);
-        --color-secondary-button-icon: rgba(255, 255, 255, 1);
-        --color-secondary-button-icon-background: rgba(32, 40, 45, 1);
-        --color-secondary-button-hover-text: rgba(255, 255, 255, 1);
-        --color-secondary-button-hover-background: rgba(32, 40, 45, 1);
-        --color-secondary-button-hover-border: rgba(32, 40, 45, 1);
-        --color-secondary-button-hover-icon: rgba(28, 37, 57, 1);
-        --color-secondary-button-hover-icon-background: rgba(255, 255, 255, 1);
+        --color-primary-button-hover-text: rgba(255, 255, 255, 1);
+        --color-primary-button-hover-background: rgba(200, 65, 20, 1);
+        --color-primary-button-hover-border: rgba(200, 65, 20, 1);
+        --color-primary-button-hover-icon: rgba(200, 65, 20, 1);
+        --color-primary-button-hover-icon-background: rgba(255, 255, 255, 1);
+        /* Colors - Secondary Button (Orange, inverts on hover) */
+        --color-secondary-button-text: rgba(255, 255, 255, 1);
+        --color-secondary-button-background: rgba(237, 90, 40, 1);
+        --color-secondary-button-border: rgba(237, 90, 40, 1);
+        --color-secondary-button-icon: rgba(237, 90, 40, 1);
+        --color-secondary-button-icon-background: rgba(255, 255, 255, 1);
+        --color-secondary-button-hover-text: rgba(237, 90, 40, 1);
+        --color-secondary-button-hover-background: rgba(255, 255, 255, 1);
+        --color-secondary-button-hover-border: rgba(237, 90, 40, 1);
+        --color-secondary-button-hover-icon: rgba(255, 255, 255, 1);
+        --color-secondary-button-hover-icon-background: rgba(237, 90, 40, 1);
         /* Colors - Input */
         --color-input-background: rgba(255, 255, 255, 1);
         --color-input-text: rgba(93, 102, 111, 1);
@@ -110,8 +114,8 @@
         --pagination-item-background: rgba(242, 242, 242, 1);
         --pagination-item-border: rgba(242, 242, 242, 1);
         --pagination-item-active-foreground: rgba(255, 255, 255, 1);
-        --pagination-item-active-background: rgba(28, 37, 57, 1);
-        --pagination-item-active-border: rgba(28, 37, 57, 1);
+        --pagination-item-active-background: rgba(237, 90, 40, 1);
+        --pagination-item-active-border: rgba(237, 90, 40, 1);
         /* Swiper */
         --swiper-navigation-size: 16px;
         --swiper-navigation-color: rgba(255, 255, 255, 1);
@@ -134,6 +138,7 @@
       }
     </style>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/theme-overrides.css">
   </head>
   <body>
     <!-- Header 1 -->
@@ -142,7 +147,7 @@
         <div class="container-fluid">
           <div class="header-grid">
             <a class="header-logo" href="/index.php" aria-label="Joint Group">
-              <img src="../assets/img/logo-white.png" alt="Joint Group Logo" width="189" height="32">
+              <img src="../assets/img/logo/logo.png" alt="Joint Group Logo" width="189" height="32">
             </a>
             <drawer-menu>
               <nav class="header-nav drawer-menu">
