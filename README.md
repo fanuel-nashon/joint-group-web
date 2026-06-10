@@ -1,6 +1,6 @@
 # Joint Group Website
 
-Corporate website for **Joint Group** — a business growth and investment facilitation firm based in Dar es Salaam, Tanzania. Built as a multi-page PHP site on the Consulo template.
+Corporate website for **Joint Group** — a business growth and investment facilitation firm based in Dar es Salaam, Tanzania. Built as a multi-page PHP site.
 
 ---
 
@@ -45,7 +45,7 @@ The root `index.php` simply forwards to `pages/index.php` via `require_once`. Cl
 | File | Served | Role |
 |---|---|---|
 | `assets/css/vendor.css` | as-is (already minified) | Bootstrap 5 + bundled third-party component styles |
-| `assets/css/style.css` | → `style.min.css` | Consulo template base styles; CSS custom properties for all component tokens |
+| `assets/css/style.css` | → `style.min.css` | Base styles; CSS custom properties for all component tokens |
 | `assets/css/theme-overrides.css` | → `theme-overrides.min.css` | Joint Group brand overrides — section backgrounds, card colours, button colours, scroll-to-top |
 
 The browser loads the **minified** `.min.css` files. The source `.css` files are kept for editing — run `npm run build` to regenerate the minified versions.
@@ -219,7 +219,7 @@ Additional per-page schemas can be injected via `$seo_jsonld_extra`.
 | `style.css` | 187 KB | 157 KB |
 | `theme-overrides.css` | 5.2 KB | 2.1 KB |
 
-`vendor.css` (340 KB) and `vendor.js` (244 KB) are pre-minified by the template vendor and are not processed by the build step.
+`vendor.css` (340 KB) and `vendor.js` (244 KB) are pre-minified third-party bundles and are not processed by the build step.
 
 ### Resource Hints
 `header.php` includes `<link rel="preload">` for `vendor.css`, `style.min.css`, and `vendor.js` so the browser fetches them before the parser reaches the `<link>` and `<script>` tags.
@@ -292,7 +292,7 @@ README.md
 ## Pending Changes
 
 ### 1. Image Replacements
-All images are currently from the Consulo template. Replace with real Joint Group photography/assets:
+Replace placeholder images with real Joint Group photography/assets:
 
 | Image | Path | Notes |
 |---|---|---|
