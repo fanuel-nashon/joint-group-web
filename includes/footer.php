@@ -4,7 +4,7 @@
         <div class="row footer-custom-row">
             <div class="col-12 col-md-6">
             <div class="footer-widget footer-widget-brand" data-aos="fade-up" data-aos-anchor=".footer-top">
-                <a class="footer-logo" href="/index.php" aria-label="Joint Group Logo">
+                <a class="footer-logo" href="/" aria-label="Joint Group Logo">
                 <img src="../assets/img/logo/logo.png" alt="Joint Group Logo" width="189" height="32" loading="lazy">
                 </a>
                 <p class="text text-16"> Joint Group is Tanzania's leading business growth and investment facilitation firm. We connect businesses with opportunities and investors with potential. </p>
@@ -49,16 +49,16 @@
                 <div class="widget-heading heading text-22">Quick Link</div>
                 <ul class="footer-menu list-unstyled">
                 <li>
-                    <a href="/pages/about.php" class="text text-16 link" aria-label="About Us"> About Us </a>
+                    <a href="/pages/about" class="text text-16 link" aria-label="About Us"> About Us </a>
                 </li>
                 <li>
-                    <a href="/pages/services.php" class="text text-16 link" aria-label="Our Services"> Our Services </a>
+                    <a href="/pages/services" class="text text-16 link" aria-label="Our Services"> Our Services </a>
                 </li>
                 <li>
-                    <a href="/pages/why-choose-us.php" class="text text-16 link" aria-label="Why Choose Us"> Why Choose Us </a>
+                    <a href="/pages/why-choose-us" class="text text-16 link" aria-label="Why Choose Us"> Why Choose Us </a>
                 </li>
                 <li>
-                    <a href="/pages/contact.php" class="text text-16 link" aria-label="Contact Us"> Contact Us </a>
+                    <a href="/pages/contact" class="text text-16 link" aria-label="Contact Us"> Contact Us </a>
                 </li>
                 </ul>
             </div>
@@ -68,16 +68,16 @@
                 <div class="widget-heading heading text-22">Services</div>
                 <ul class="footer-menu list-unstyled">
                 <li>
-                    <a href="/pages/services.php" class="text text-16 link" aria-label="Business Growth Consultancy"> Business Growth Consultancy </a>
+                    <a href="/pages/services" class="text text-16 link" aria-label="Business Growth Consultancy"> Business Growth Consultancy </a>
                 </li>
                 <li>
-                    <a href="/pages/services.php" class="text text-16 link" aria-label="Marketing Solutions"> Marketing Solutions </a>
+                    <a href="/pages/services" class="text text-16 link" aria-label="Marketing Solutions"> Marketing Solutions </a>
                 </li>
                 <li>
-                    <a href="/pages/services.php" class="text text-16 link" aria-label="Professional Training"> Professional Training &amp; Development </a>
+                    <a href="/pages/services" class="text text-16 link" aria-label="Professional Training"> Professional Training &amp; Development </a>
                 </li>
                 <li>
-                    <a href="/pages/services.php" class="text text-16 link" aria-label="Investment Facilitation"> Investment Facilitation </a>
+                    <a href="/pages/services" class="text text-16 link" aria-label="Investment Facilitation"> Investment Facilitation </a>
                 </li>
                 </ul>
             </div>
@@ -87,16 +87,16 @@
                 <div class="widget-heading heading text-22">Information</div>
                 <ul class="footer-menu list-unstyled">
                 <li>
-                    <a href="/pages/about.php" class="text text-16 link" aria-label="Working Process"> Working Process </a>
+                    <a href="/pages/about" class="text text-16 link" aria-label="Working Process"> Working Process </a>
                 </li>
                 <li>
-                    <a href="/pages/privacy-policy.php" class="text text-16 link" aria-label="Privacy Policy"> Privacy Policy </a>
+                    <a href="/pages/privacy-policy" class="text text-16 link" aria-label="Privacy Policy"> Privacy Policy </a>
                 </li>
                 <li>
-                    <a href="/pages/terms.php" class="text text-16 link" aria-label="Terms & Conditions"> Terms & Conditions </a>
+                    <a href="/pages/terms" class="text text-16 link" aria-label="Terms & Conditions"> Terms & Conditions </a>
                 </li>
                 <li>
-                    <a href="/pages/faq.php" class="text text-16 link" aria-label="FAQ"> Faqs </a>
+                    <a href="/pages/faq" class="text text-16 link" aria-label="FAQ"> Faqs </a>
                 </li>
                 </ul>
             </div>
@@ -113,13 +113,13 @@
             <div class="col-12 col-md-6 col-lg-6">
             <ul class="footer-menu footer-policies list-unstyled">
                 <li>
-                <a href="/pages/privacy-policy.php" class="text text-16 link" aria-label="Privacy Policy"> Privacy Policy </a>
+                <a href="/pages/privacy-policy" class="text text-16 link" aria-label="Privacy Policy"> Privacy Policy </a>
                 </li>
                 <li>
-                <a href="/pages/faq.php" class="text text-16 link" aria-label="FAQ"> Faqs </a>
+                <a href="/pages/faq" class="text text-16 link" aria-label="FAQ"> Faqs </a>
                 </li>
                 <li>
-                <a href="/pages/contact.php" class="text text-16 link" aria-label="FAQ"> Contact </a>
+                <a href="/pages/contact" class="text text-16 link" aria-label="FAQ"> Contact </a>
                 </li>
             </ul>
             </div>

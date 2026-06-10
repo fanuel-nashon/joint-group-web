@@ -1,7 +1,7 @@
 <?php
 $seo_title       = 'Privacy Policy | Joint Group';
 $seo_description = 'Read Joint Group\'s Privacy Policy to understand how we collect, use, and protect your personal information in compliance with Tanzanian law.';
-$seo_canonical   = 'https://jointgroup.co.tz/pages/privacy-policy.php';
+$seo_canonical   = 'https://jointgroup.co.tz/pages/privacy-policy';
 $seo_robots      = 'noindex, follow';
 require_once __DIR__ . '/../includes/header.php';
 ?>
@@ -20,7 +20,7 @@ require_once __DIR__ . '/../includes/header.php';
             <h1 class="heading text-80 fw-700" data-aos="fade-up">Privacy Policy</h1>
             <ul class="breadcrumb list-unstyled" data-aos="fade-up" data-aos-delay="100">
               <li>
-                <a href="/index.php" class="text text-18" aria-label="Home Page">Home</a>
+                <a href="/" class="text text-18" aria-label="Home Page">Home</a>
               </li>
               <li>
                 <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">

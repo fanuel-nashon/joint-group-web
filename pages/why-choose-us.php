@@ -1,7 +1,7 @@
 <?php
 $seo_title       = 'Why Choose Us | Joint Group – What Sets Us Apart';
 $seo_description = 'Discover why businesses across Tanzania trust Joint Group for growth consultancy and investment facilitation. Expert team, proven results, and deep local market knowledge.';
-$seo_canonical   = 'https://jointgroup.co.tz/pages/why-choose-us.php';
+$seo_canonical   = 'https://jointgroup.co.tz/pages/why-choose-us';
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
@@ -38,7 +38,7 @@ require_once __DIR__ . '/../includes/header.php';
             >
               <li>
                 <a
-                  href="/index.php"
+                  href="/"
                   class="text text-18"
                   aria-label="Home Page"
                 >

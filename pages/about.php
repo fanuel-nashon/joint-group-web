@@ -1,7 +1,7 @@
-﻿<?php
+<?php
 $seo_title       = 'About Us | Joint Group – Tanzania Business Growth Experts';
 $seo_description = 'Learn about Joint Group – our mission, vision, and the team dedicated to driving business growth and investment facilitation across Tanzania and East Africa.';
-$seo_canonical   = 'https://jointgroup.co.tz/pages/about.php';
+$seo_canonical   = 'https://jointgroup.co.tz/pages/about';
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
@@ -38,7 +38,7 @@ require_once __DIR__ . '/../includes/header.php';
             >
               <li>
                 <a
-                  href="/index.php"
+                  href="/"
                   class="text text-18"
                   aria-label="Home Page"
                 >
@@ -267,7 +267,7 @@ require_once __DIR__ . '/../includes/header.php';
                 </ul>
                 <div class="buttons" data-aos="fade-up">
                   <a
-                    href="/pages/about.php"
+                    href="/pages/about"
                     class="button button--primary"
                     aria-label="More About Us"
                   >
@@ -301,7 +301,7 @@ require_once __DIR__ . '/../includes/header.php';
           <div class="content-inner">
             <div class="content-lists running-animation">
               <div class="content-item">
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b1.png"
                     width="108"
@@ -310,7 +310,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b2.png"
                     width="108"
@@ -319,7 +319,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b3.png"
                     width="108"
@@ -328,7 +328,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b4.png"
                     width="108"
@@ -337,7 +337,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b5.png"
                     width="108"
@@ -348,7 +348,7 @@ require_once __DIR__ . '/../includes/header.php';
                 </a>
               </div>
               <div class="content-item">
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b1.png"
                     width="108"
@@ -357,7 +357,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b2.png"
                     width="108"
@@ -366,7 +366,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b3.png"
                     width="108"
@@ -375,7 +375,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b4.png"
                     width="108"
@@ -384,7 +384,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b5.png"
                     width="108"
@@ -395,7 +395,7 @@ require_once __DIR__ . '/../includes/header.php';
                 </a>
               </div>
               <div class="content-item">
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b1.png"
                     width="108"
@@ -404,7 +404,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b2.png"
                     width="108"
@@ -413,7 +413,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b3.png"
                     width="108"
@@ -422,7 +422,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b4.png"
                     width="108"
@@ -431,7 +431,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b5.png"
                     width="108"
@@ -442,7 +442,7 @@ require_once __DIR__ . '/../includes/header.php';
                 </a>
               </div>
               <div class="content-item">
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b1.png"
                     width="108"
@@ -451,7 +451,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b2.png"
                     width="108"
@@ -460,7 +460,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b3.png"
                     width="108"
@@ -469,7 +469,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b4.png"
                     width="108"
@@ -478,7 +478,7 @@ require_once __DIR__ . '/../includes/header.php';
                     alt="Brand Image"
                   >
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img
                     src="../assets/img/brand/b5.png"
                     width="108"
@@ -579,7 +579,7 @@ require_once __DIR__ . '/../includes/header.php';
                   </p>
                   <div class="buttons" data-aos="fade-up">
                     <a
-                      href="/pages/about.php"
+                      href="/pages/about"
                       class="button button--primary"
                       aria-label="More About Us"
                     >
@@ -1342,7 +1342,7 @@ require_once __DIR__ . '/../includes/header.php';
                 </div>
                 <div class="buttons" data-aos="fade-up" data-aos-delay="100">
                   <a
-                    href="/pages/about.php"
+                    href="/pages/about"
                     class="button button--primary"
                     aria-label="Ask Your Question"
                   >

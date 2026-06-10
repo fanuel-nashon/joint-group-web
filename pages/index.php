@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $seo_title       = 'Joint Group | Business Growth & Investment Facilitation in Tanzania';
 $seo_description = 'Joint Group is a Tanzania-based business growth and investment facilitation firm helping startups, SMEs, and industries scale through strategic consultancy, marketing solutions, and international investment partnerships.';
 $seo_canonical   = 'https://jointgroup.co.tz/';
@@ -47,13 +47,13 @@ $seo_canonical   = 'https://jointgroup.co.tz/';
                       <h2 class="heading text-90 fw-700"> Accelerating Business Growth. Connecting Global Investment. </h2>
                       <div class="text text-18"> Building stronger businesses. Attracting smarter investments. Creating sustainable growth. </div>
                       <div class="buttons">
-                        <a href="/pages/contact.php" class="button button--secondary" aria-label="Get a Consultation"> Get a Consultation <span class="svg-wrapper">
+                        <a href="/pages/contact" class="button button--secondary" aria-label="Get a Consultation"> Get a Consultation <span class="svg-wrapper">
                             <svg class="icon-20" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M13.3365 7.84518L6.16435 15.0173L4.98584 13.8388L12.158 6.66667H5.83652V5H15.0032V14.1667H13.3365V7.84518Z" fill="currentColor" />
                             </svg>
                           </span>
                         </a>
-                        <a href="/pages/about.php" class="button button--primary" aria-label="Partner With Us"> Partner With Us <span class="svg-wrapper">
+                        <a href="/pages/about" class="button button--primary" aria-label="Partner With Us"> Partner With Us <span class="svg-wrapper">
                             <svg class="icon-20" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M13.3365 7.84518L6.16435 15.0173L4.98584 13.8388L12.158 6.66667H5.83652V5H15.0032V14.1667H13.3365V7.84518Z" fill="currentColor" />
                             </svg>
@@ -102,13 +102,13 @@ $seo_canonical   = 'https://jointgroup.co.tz/';
                       <h2 class="heading text-90 fw-700"> Accelerating Business Growth. Connecting Global Investment. </h2>
                       <div class="text text-18"> Building stronger businesses. Attracting smarter investments. Creating sustainable growth. </div>
                       <div class="buttons">
-                        <a href="/pages/contact.php" class="button button--secondary" aria-label="Get a Consultation"> Get a Consultation <span class="svg-wrapper">
+                        <a href="/pages/contact" class="button button--secondary" aria-label="Get a Consultation"> Get a Consultation <span class="svg-wrapper">
                             <svg class="icon-20" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M13.3365 7.84518L6.16435 15.0173L4.98584 13.8388L12.158 6.66667H5.83652V5H15.0032V14.1667H13.3365V7.84518Z" fill="currentColor" />
                             </svg>
                           </span>
                         </a>
-                        <a href="/pages/about.php" class="button button--primary" aria-label="Partner With Us"> Partner With Us <span class="svg-wrapper">
+                        <a href="/pages/about" class="button button--primary" aria-label="Partner With Us"> Partner With Us <span class="svg-wrapper">
                             <svg class="icon-20" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M13.3365 7.84518L6.16435 15.0173L4.98584 13.8388L12.158 6.66667H5.83652V5H15.0032V14.1667H13.3365V7.84518Z" fill="currentColor" />
                             </svg>
@@ -217,7 +217,7 @@ $seo_canonical   = 'https://jointgroup.co.tz/';
                   </li>
                 </ul>
                 <div class="buttons" data-aos="fade-up">
-                  <a href="/pages/about.php" class="button button--primary" aria-label="More About Us"> More About Us <span class="svg-wrapper">
+                  <a href="/pages/about" class="button button--primary" aria-label="More About Us"> More About Us <span class="svg-wrapper">
                       <svg class="icon-20" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M13.3365 7.84518L6.16435 15.0173L4.98584 13.8388L12.158 6.66667H5.83652V5H15.0032V14.1667H13.3365V7.84518Z" fill="CurrentColor" />
                       </svg>
@@ -235,70 +235,70 @@ $seo_canonical   = 'https://jointgroup.co.tz/';
           <div class="content-inner">
             <div class="content-lists running-animation">
               <div class="content-item">
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b1.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b2.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b3.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b4.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b5.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
               </div>
               <div class="content-item">
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b1.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b2.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b3.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b4.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b5.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
               </div>
               <div class="content-item">
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b1.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b2.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b3.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b4.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b5.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
               </div>
               <div class="content-item">
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b1.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b2.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b3.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b4.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
-                <a href="/pages/about.php" class="content-link">
+                <a href="/pages/about" class="content-link">
                   <img src="../assets/img/brand/b5.png" width="108" height="36" loading="lazy" alt="Brand Image">
                 </a>
               </div>
@@ -460,7 +460,7 @@ $seo_canonical   = 'https://jointgroup.co.tz/';
           </div>
           <div class="section-headings text-center">
             <div class="buttons" data-aos="fade-up">
-              <a href="/pages/services.php" class="button button--primary" aria-label="More Services"> More Services <span class="svg-wrapper">
+              <a href="/pages/services" class="button button--primary" aria-label="More Services"> More Services <span class="svg-wrapper">
                   <svg class="icon-20" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M13.3365 7.84518L6.16435 15.0173L4.98584 13.8388L12.158 6.66667H5.83652V5H15.0032V14.1667H13.3365V7.84518Z" fill="CurrentColor" />
                   </svg>

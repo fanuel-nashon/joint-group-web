@@ -1,7 +1,7 @@
 <?php
 $seo_title       = 'FAQs | Joint Group – Common Questions Answered';
 $seo_description = 'Find answers to frequently asked questions about Joint Group\'s services, investment facilitation, consultancy engagements, and how to get started.';
-$seo_canonical   = 'https://jointgroup.co.tz/pages/faq.php';
+$seo_canonical   = 'https://jointgroup.co.tz/pages/faq';
 $seo_jsonld_extra = '<script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,7 +67,7 @@ require_once __DIR__ . '/../includes/header.php';
             <h1 class="heading text-80 fw-700" data-aos="fade-up">FAQs</h1>
             <ul class="breadcrumb list-unstyled" data-aos="fade-up" data-aos-delay="100">
               <li>
-                <a href="/index.php" class="text text-18" aria-label="Home Page">Home</a>
+                <a href="/" class="text text-18" aria-label="Home Page">Home</a>
               </li>
               <li>
                 <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -148,7 +148,7 @@ require_once __DIR__ . '/../includes/header.php';
                   </h2>
                   <div id="ans3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
                     <div class="accordion-body text text-16">
-                      Simply reach out through our <a href="/pages/contact.php" style="color:rgba(237,90,40,1);">Contact page</a> or email us at <a href="mailto:info@jointgroup.co.tz" style="color:rgba(237,90,40,1);">info@jointgroup.co.tz</a>. One of our consultants will schedule a free discovery call to understand your goals and recommend the right service package.
+                      Simply reach out through our <a href="/pages/contact" style="color:rgba(237,90,40,1);">Contact page</a> or email us at <a href="mailto:info@jointgroup.co.tz" style="color:rgba(237,90,40,1);">info@jointgroup.co.tz</a>. One of our consultants will schedule a free discovery call to understand your goals and recommend the right service package.
                     </div>
                   </div>
                 </div>
@@ -218,7 +218,7 @@ require_once __DIR__ . '/../includes/header.php';
                   </h2>
                   <div id="ans8" class="accordion-collapse collapse" aria-labelledby="faq8" data-bs-parent="#faqAccordion">
                     <div class="accordion-body text text-16">
-                      You can reach us by email at <a href="mailto:info@jointgroup.co.tz" style="color:rgba(237,90,40,1);">info@jointgroup.co.tz</a>, by phone at <a href="tel:+255767280884" style="color:rgba(237,90,40,1);">+255 767 280 884</a>, or by filling out the form on our <a href="/pages/contact.php" style="color:rgba(237,90,40,1);">Contact page</a>. We respond within one business day.
+                      You can reach us by email at <a href="mailto:info@jointgroup.co.tz" style="color:rgba(237,90,40,1);">info@jointgroup.co.tz</a>, by phone at <a href="tel:+255767280884" style="color:rgba(237,90,40,1);">+255 767 280 884</a>, or by filling out the form on our <a href="/pages/contact" style="color:rgba(237,90,40,1);">Contact page</a>. We respond within one business day.
                     </div>
                   </div>
                 </div>
@@ -227,7 +227,7 @@ require_once __DIR__ . '/../includes/header.php';
 
               <div class="text-center mt-5" data-aos="fade-up">
                 <p class="text text-18">Still have questions?</p>
-                <a href="/pages/contact.php" class="button button--primary" aria-label="Contact Us">
+                <a href="/pages/contact" class="button button--primary" aria-label="Contact Us">
                   Get in Touch
                   <span class="svg-wrapper">
                     <svg class="icon-20" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">

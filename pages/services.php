@@ -1,7 +1,7 @@
-﻿<?php
+<?php
 $seo_title       = 'Our Services | Joint Group – Consultancy, Marketing & Investment';
 $seo_description = 'Explore Joint Group\'s services: strategic business consultancy, marketing solutions, professional training, and investment facilitation tailored for Tanzania and East Africa.';
-$seo_canonical   = 'https://jointgroup.co.tz/pages/services.php';
+$seo_canonical   = 'https://jointgroup.co.tz/pages/services';
 require_once __DIR__ . '/../includes/header.php';
 ?>
 
@@ -38,7 +38,7 @@ require_once __DIR__ . '/../includes/header.php';
             >
               <li>
                 <a
-                  href="/index.php"
+                  href="/"
                   class="text text-18"
                   aria-label="Home Page"
                 >
