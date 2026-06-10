@@ -61,9 +61,13 @@ $seo_og_image    = $seo_og_image    ?? 'https://jointgroup.co.tz/assets/img/og-i
       "sameAs": []
     }
     </script>
-    <!-- fonts -->
+    <!-- Resource hints -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="preload" href="../assets/css/vendor.css" as="style">
+    <link rel="preload" href="../assets/css/style.min.css" as="style">
+    <link rel="preload" href="../assets/js/vendor.js" as="script">
+    <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
     <!-- all css -->
     <link rel="stylesheet" href="../assets/css/vendor.css">
@@ -185,8 +189,8 @@ $seo_og_image    = $seo_og_image    ?? 'https://jointgroup.co.tz/assets/img/og-i
         }
       }
     </style>
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/theme-overrides.css">
+    <link rel="stylesheet" href="../assets/css/style.min.css">
+    <link rel="stylesheet" href="../assets/css/theme-overrides.min.css">
     <?php if (!empty($seo_jsonld_extra)) echo $seo_jsonld_extra; ?>
   </head>
   <body>

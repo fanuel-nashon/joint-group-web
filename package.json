@@ -1,0 +1,12 @@
+{
+  "name": "joint-group-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:css": "npx clean-css-cli assets/css/style.css -o assets/css/style.min.css && npx clean-css-cli assets/css/theme-overrides.css -o assets/css/theme-overrides.min.css",
+    "build": "npm run build:css"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3"
+  }
+}
