@@ -1,4 +1,9 @@
-﻿<?php require_once __DIR__ . '/../includes/header.php'; ?>
+﻿<?php
+$seo_title       = 'Our Services | Joint Group – Consultancy, Marketing & Investment';
+$seo_description = 'Explore Joint Group\'s services: strategic business consultancy, marketing solutions, professional training, and investment facilitation tailored for Tanzania and East Africa.';
+$seo_canonical   = 'https://jointgroup.co.tz/pages/services.php';
+require_once __DIR__ . '/../includes/header.php';
+?>
 
     <!-- Main -->
     <main>

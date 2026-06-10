@@ -1,4 +1,9 @@
-﻿<?php require_once __DIR__ . '/../includes/header.php'; ?>
+﻿<?php
+$seo_title       = 'About Us | Joint Group – Tanzania Business Growth Experts';
+$seo_description = 'Learn about Joint Group – our mission, vision, and the team dedicated to driving business growth and investment facilitation across Tanzania and East Africa.';
+$seo_canonical   = 'https://jointgroup.co.tz/pages/about.php';
+require_once __DIR__ . '/../includes/header.php';
+?>
 
     <!-- Main -->
     <main>

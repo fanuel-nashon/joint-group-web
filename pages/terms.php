@@ -1,4 +1,10 @@
-<?php require_once __DIR__ . '/../includes/header.php'; ?>
+<?php
+$seo_title       = 'Terms & Conditions | Joint Group';
+$seo_description = 'Review the Terms & Conditions governing the use of the Joint Group website and our business services in Tanzania.';
+$seo_canonical   = 'https://jointgroup.co.tz/pages/terms.php';
+$seo_robots      = 'noindex, follow';
+require_once __DIR__ . '/../includes/header.php';
+?>
 
     <!-- Main -->
     <main>

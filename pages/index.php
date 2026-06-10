@@ -1,4 +1,7 @@
 ﻿<?php
+$seo_title       = 'Joint Group | Business Growth & Investment Facilitation in Tanzania';
+$seo_description = 'Joint Group is a Tanzania-based business growth and investment facilitation firm helping startups, SMEs, and industries scale through strategic consultancy, marketing solutions, and international investment partnerships.';
+$seo_canonical   = 'https://jointgroup.co.tz/';
     require_once __DIR__ . '/../includes/header.php';
 ?>
     <!-- Main -->

@@ -1,4 +1,10 @@
-<?php require_once __DIR__ . '/../includes/header.php'; ?>
+<?php
+$seo_title       = 'Privacy Policy | Joint Group';
+$seo_description = 'Read Joint Group\'s Privacy Policy to understand how we collect, use, and protect your personal information in compliance with Tanzanian law.';
+$seo_canonical   = 'https://jointgroup.co.tz/pages/privacy-policy.php';
+$seo_robots      = 'noindex, follow';
+require_once __DIR__ . '/../includes/header.php';
+?>
 
     <!-- Main -->
     <main>

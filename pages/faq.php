@@ -1,4 +1,57 @@
-<?php require_once __DIR__ . '/../includes/header.php'; ?>
+<?php
+$seo_title       = 'FAQs | Joint Group – Common Questions Answered';
+$seo_description = 'Find answers to frequently asked questions about Joint Group\'s services, investment facilitation, consultancy engagements, and how to get started.';
+$seo_canonical   = 'https://jointgroup.co.tz/pages/faq.php';
+$seo_jsonld_extra = '<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What does Joint Group do?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Joint Group is a Tanzania-based business growth and investment facilitation firm. We help startups, SMEs, and established companies scale through strategic consultancy, marketing solutions, professional training, and international investment partnerships."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who are your typical clients?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We work with early-stage startups, SMEs looking to expand market share, and large corporations pursuing strategic partnerships operating in or targeting Tanzania and East Africa."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I get started with Joint Group?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reach out through our Contact page or email info@jointgroup.co.tz. A consultant will schedule a free discovery call to understand your goals and recommend the right service package."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you connect businesses with international investors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Investment facilitation is one of our core services. We maintain a network of local and international investors and help prepare your business for investment readiness."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my business information kept confidential?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We sign Non-Disclosure Agreements (NDAs) before any sensitive business information is exchanged and never share client data with third parties without explicit consent."
+      }
+    }
+  ]
+}
+</script>';
+require_once __DIR__ . '/../includes/header.php';
+?>
 
     <!-- Main -->
     <main>

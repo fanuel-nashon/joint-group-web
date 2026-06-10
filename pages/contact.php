@@ -1,4 +1,9 @@
-<?php require_once __DIR__ . '/../includes/header.php'; ?>
+<?php
+$seo_title       = 'Contact Us | Joint Group – Get in Touch Today';
+$seo_description = 'Contact Joint Group in Dar es Salaam, Tanzania. Reach out by phone, email, or our online form to discuss how we can help grow your business.';
+$seo_canonical   = 'https://jointgroup.co.tz/pages/contact.php';
+require_once __DIR__ . '/../includes/header.php';
+?>
 
     <!-- Main -->
     <main>

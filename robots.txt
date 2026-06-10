@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block admin or config paths if added later
+Disallow: /includes/
+Disallow: /assets/js/
+Disallow: /assets/css/
+
+Sitemap: https://jointgroup.co.tz/sitemap.xml

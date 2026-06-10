@@ -1,18 +1,66 @@
+<?php
+$seo_title       = $seo_title       ?? 'Joint Group | Business Growth & Investment Facilitation';
+$seo_description = $seo_description ?? 'Joint Group is a business growth, marketing, and investment facilitation firm helping startups, SMEs, and industries in Tanzania through strategic consultancy, marketing solutions, and international investment partnerships.';
+$seo_canonical   = $seo_canonical   ?? 'https://jointgroup.co.tz/';
+$seo_og_type     = $seo_og_type     ?? 'website';
+$seo_robots      = $seo_robots      ?? 'index, follow';
+$seo_og_image    = $seo_og_image    ?? 'https://jointgroup.co.tz/assets/img/og-image.jpg';
+?>
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
-    <title>Joint Group | Business Growth &amp; Investment Facilitation</title>
+    <title><?= htmlspecialchars($seo_title) ?></title>
     <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="view-transition" content="same-origin">
-    <meta name="theme-color" content="Red">
+    <meta name="theme-color" content="#ED5A28">
+    <meta name="robots" content="<?= htmlspecialchars($seo_robots) ?>">
+    <!-- Primary Meta -->
+    <meta name="description" content="<?= htmlspecialchars($seo_description) ?>">
+    <link rel="canonical" href="<?= htmlspecialchars($seo_canonical) ?>">
+    <!-- Open Graph -->
     <meta property="og:site_name" content="Joint Group">
-    <meta property="og:url" content="https://jointgroup.co.tz">
-    <meta property="og:title" content="Joint Group | Business Growth &amp; Investment Facilitation">
-    <meta property="og:description" content="Joint Group is a Tanzania-based business growth and investment facilitation firm dedicated to helping startups, SMEs, and industries unlock their full potential.">
-    <meta name="description" content="Joint Group is a business growth, marketing, and investment facilitation firm helping startups, SMEs, and industries in Tanzania through strategic consultancy, marketing solutions, and international investment partnerships.">
+    <meta property="og:type" content="<?= htmlspecialchars($seo_og_type) ?>">
+    <meta property="og:locale" content="en_TZ">
+    <meta property="og:url" content="<?= htmlspecialchars($seo_canonical) ?>">
+    <meta property="og:title" content="<?= htmlspecialchars($seo_title) ?>">
+    <meta property="og:description" content="<?= htmlspecialchars($seo_description) ?>">
+    <meta property="og:image" content="<?= htmlspecialchars($seo_og_image) ?>">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Joint Group – Business Growth & Investment Facilitation in Tanzania">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?= htmlspecialchars($seo_title) ?>">
+    <meta name="twitter:description" content="<?= htmlspecialchars($seo_description) ?>">
+    <meta name="twitter:image" content="<?= htmlspecialchars($seo_og_image) ?>">
+    <meta name="twitter:image:alt" content="Joint Group – Business Growth & Investment Facilitation in Tanzania">
+    <!-- JSON-LD: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Joint Group",
+      "url": "https://jointgroup.co.tz",
+      "logo": "https://jointgroup.co.tz/assets/img/logo.png",
+      "description": "Business growth and investment facilitation firm helping startups, SMEs, and industries in Tanzania.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dar es Salaam",
+        "addressCountry": "TZ"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+255-767-280-884",
+        "contactType": "customer service",
+        "email": "info@jointgroup.co.tz",
+        "availableLanguage": ["English", "Swahili"]
+      },
+      "sameAs": []
+    }
+    </script>
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -139,6 +187,7 @@
     </style>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/theme-overrides.css">
+    <?php if (!empty($seo_jsonld_extra)) echo $seo_jsonld_extra; ?>
   </head>
   <body>
     <!-- Header 1 -->
