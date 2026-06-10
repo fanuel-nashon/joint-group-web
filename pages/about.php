@@ -291,7 +291,7 @@
       </div>
 
       <!-- Brand Logo -->
-      <div class="running-content mt-100">
+      <!-- <div class="running-content mt-100">
         <div class="container">
           <div class="content-inner">
             <div class="content-lists running-animation">
@@ -486,7 +486,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- Why Choose Us -->
       <div class="why-choose-us bg-transparent mt-100 section-padding">
@@ -754,7 +754,7 @@
                           fill="#1C2539"
                         />
                       </svg>
-                      <span class="text-abs">25</span>
+                      <span class="text-abs">3</span>
                     </div>
                   </div>
                 </div>
