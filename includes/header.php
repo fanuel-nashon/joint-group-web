@@ -155,12 +155,12 @@
                   <a class="header-logo" href="/index.php" aria-label="Joint Group">
                     <img src="../assets/img/logo.png" alt="Joint Group Logo" width="189" height="32" loading="lazy">
                   </a>
-                  <drawer-opener class="svg-wrapper menu-close" data-drawer=".drawer-menu">
+                  <!-- <drawer-opener class="svg-wrapper menu-close" data-drawer=".drawer-menu">
                     <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M8.00386 9.41816C7.61333 9.02763 7.61334 8.39447 8.00386 8.00395C8.39438 7.61342 9.02755 7.61342 9.41807 8.00395L12.0057 10.5916L14.5907 8.00657C14.9813 7.61605 15.6144 7.61605 16.0049 8.00657C16.3955 8.3971 16.3955 9.03026 16.0049 9.42079L13.4199 12.0058L16.0039 14.5897C16.3944 14.9803 16.3944 15.6134 16.0039 16.0039C15.6133 16.3945 14.9802 16.3945 14.5896 16.0039L12.0057 13.42L9.42097 16.0048C9.03045 16.3953 8.39728 16.3953 8.00676 16.0048C7.61624 15.6142 7.61624 14.9811 8.00676 14.5905L10.5915 12.0058L8.00386 9.41816Z" fill="currentColor" />
                       <path fill-rule="evenodd" clip-rule="evenodd" d="M23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12ZM3.00683 12C3.00683 16.9668 7.03321 20.9932 12 20.9932C16.9668 20.9932 20.9932 16.9668 20.9932 12C20.9932 7.03321 16.9668 3.00683 12 3.00683C7.03321 3.00683 3.00683 7.03321 3.00683 12Z" fill="currentColor" />
                     </svg>
-                  </drawer-opener>
+                  </drawer-opener> -->
                 </div>
                 <ul class="header-menu list-unstyled">
                   <li class="nav-item">
@@ -242,20 +242,20 @@
               </nav>
             </drawer-menu>
             <div class="header-actions d-flex align-items-center">
-              <drawer-opener class="header-search search-open svg-wrapper" data-drawer=".modal-search">
+              <!-- <drawer-opener class="header-search search-open svg-wrapper" data-drawer=".modal-search">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M21.7104 20.2875L18.0004 16.6075C19.4405 14.8119 20.1379 12.5328 19.9492 10.2388C19.7605 7.94476 18.7001 5.81025 16.9859 4.27411C15.2718 2.73797 13.0342 1.91697 10.7333 1.97993C8.43243 2.04289 6.24311 2.98502 4.61553 4.6126C2.98795 6.24018 2.04582 8.4295 1.98286 10.7304C1.9199 13.0313 2.7409 15.2688 4.27704 16.983C5.81318 18.6971 7.94769 19.7576 10.2417 19.9463C12.5357 20.135 14.8148 19.4376 16.6104 17.9975L20.2904 21.6775C20.3834 21.7712 20.494 21.8456 20.6158 21.8964C20.7377 21.9471 20.8684 21.9733 21.0004 21.9733C21.1324 21.9733 21.2631 21.9471 21.385 21.8964C21.5068 21.8456 21.6174 21.7712 21.7104 21.6775C21.8906 21.491 21.9914 21.2418 21.9914 20.9825C21.9914 20.7231 21.8906 20.4739 21.7104 20.2875ZM11.0004 17.9975C9.61592 17.9975 8.26255 17.5869 7.1114 16.8178C5.96026 16.0486 5.06305 14.9553 4.53324 13.6762C4.00342 12.3972 3.8648 10.9897 4.1349 9.63183C4.40499 8.27396 5.07168 7.02668 6.05065 6.04772C7.02961 5.06875 8.27689 4.40206 9.63476 4.13197C10.9926 3.86187 12.4001 4.00049 13.6792 4.53031C14.9583 5.06012 16.0515 5.95733 16.8207 7.10847C17.5899 8.25962 18.0004 9.61299 18.0004 10.9975C18.0004 12.854 17.2629 14.6345 15.9501 15.9472C14.6374 17.26 12.8569 17.9975 11.0004 17.9975Z" fill="currentColor" fill-opacity="1" />
                 </svg>
-              </drawer-opener>
+              </drawer-opener> -->
               <modal-search class="theme-modal modal-search">
                 <div class="modal-container">
                   <div class="modal-header">
-                    <drawer-opener class="svg-wrapper search-close" data-drawer=".modal-search">
+                    <!-- <drawer-opener class="svg-wrapper search-close" data-drawer=".modal-search">
                       <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8.00386 9.41816C7.61333 9.02763 7.61334 8.39447 8.00386 8.00395C8.39438 7.61342 9.02755 7.61342 9.41807 8.00395L12.0057 10.5916L14.5907 8.00657C14.9813 7.61605 15.6144 7.61605 16.0049 8.00657C16.3955 8.3971 16.3955 9.03026 16.0049 9.42079L13.4199 12.0058L16.0039 14.5897C16.3944 14.9803 16.3944 15.6134 16.0039 16.0039C15.6133 16.3945 14.9802 16.3945 14.5896 16.0039L12.0057 13.42L9.42097 16.0048C9.03045 16.3953 8.39728 16.3953 8.00676 16.0048C7.61624 15.6142 7.61624 14.9811 8.00676 14.5905L10.5915 12.0058L8.00386 9.41816Z" fill="currentColor" />
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12ZM3.00683 12C3.00683 16.9668 7.03321 20.9932 12 20.9932C16.9668 20.9932 20.9932 16.9668 20.9932 12C20.9932 7.03321 16.9668 3.00683 12 3.00683C7.03321 3.00683 3.00683 7.03321 3.00683 12Z" fill="currentColor" />
                       </svg>
-                    </drawer-opener>
+                    </drawer-opener> -->
                   </div>
                   <div class="modal-main d-flex align-items-center justify-content-center">
                     <form action="#" class="form-search d-flex align-items-center justify-content-center flex-wrap">
@@ -284,12 +284,12 @@
                   </svg>
                 </span>
               </a>
-              <drawer-opener class="svg-wrapper menu-open d-lg-none" data-drawer=".drawer-menu">
+              <!-- <drawer-opener class="svg-wrapper menu-open d-lg-none" data-drawer=".drawer-menu">
                 <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle cx="26" cy="26" r="25.5" fill="white" stroke="currentColor" />
                   <path d="M32.5 18.2857C32.5 17.5757 31.9179 17 31.2 17H14.3C13.5821 17 13 17.5757 13 18.2857C13 18.9958 13.5821 19.5714 14.3 19.5714H31.2C31.9179 19.5714 32.5 18.9957 32.5 18.2857ZM14.3 24.7143H37.7C38.4179 24.7143 39 25.29 39 26C39 26.7101 38.4179 27.2857 37.7 27.2857H14.3C13.5821 27.2857 13 26.7101 13 26C13 25.29 13.5821 24.7143 14.3 24.7143ZM14.3 32.4286H26C26.7179 32.4286 27.3 33.0042 27.3 33.7143C27.3 34.4243 26.7179 35 26 35H14.3C13.5821 35 13 34.4243 13 33.7143C13 33.0042 13.5821 32.4286 14.3 32.4286Z" fill="currentColor" />
                 </svg>
-              </drawer-opener>
+              </drawer-opener> -->
             </div>
           </div>
         </div>

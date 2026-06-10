@@ -90,13 +90,13 @@
                     <a href="/pages/about.php" class="text text-16 link" aria-label="Working Process"> Working Process </a>
                 </li>
                 <li>
-                    <a href="#" class="text text-16 link" aria-label="Privacy Policy"> Privacy Policy </a>
+                    <a href="/pages/privacy-policy.php" class="text text-16 link" aria-label="Privacy Policy"> Privacy Policy </a>
                 </li>
                 <li>
-                    <a href="#" class="text text-16 link" aria-label="Terms & Conditions"> Terms & Conditions </a>
+                    <a href="/pages/terms.php" class="text text-16 link" aria-label="Terms & Conditions"> Terms & Conditions </a>
                 </li>
                 <li>
-                    <a href="#" class="text text-16 link" aria-label="FAQ"> Faqs </a>
+                    <a href="/pages/faq.php" class="text text-16 link" aria-label="FAQ"> Faqs </a>
                 </li>
                 </ul>
             </div>
@@ -113,10 +113,10 @@
             <div class="col-12 col-md-6 col-lg-6">
             <ul class="footer-menu footer-policies list-unstyled">
                 <li>
-                <a href="#" class="text text-16 link" aria-label="Privacy Policy"> Privacy Policy </a>
+                <a href="/pages/privacy-policy.php" class="text text-16 link" aria-label="Privacy Policy"> Privacy Policy </a>
                 </li>
                 <li>
-                <a href="#" class="text text-16 link" aria-label="FAQ"> Faqs </a>
+                <a href="/pages/faq.php" class="text text-16 link" aria-label="FAQ"> Faqs </a>
                 </li>
                 <li>
                 <a href="/pages/contact.php" class="text text-16 link" aria-label="FAQ"> Contact </a>

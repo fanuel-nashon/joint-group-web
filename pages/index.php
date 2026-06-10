@@ -227,7 +227,7 @@
         </div>
       </div>
       <!-- Brand Logo -->
-      <div class="running-content mt-100">
+      <!-- <div class="running-content mt-100">
         <div class="container">
           <div class="content-inner">
             <div class="content-lists running-animation">
@@ -302,7 +302,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- Multicolmun -->
       <div class="multicolumn mt-100 section-padding">
         <div class="media media-bg">
@@ -722,7 +722,7 @@
       <!-- Footer Main -->
       <?php include __DIR__ . '/../includes/footer.php'; ?>
     </footer>
-    <drawer-opener id="drawer-overlay"></drawer-opener>
+    <!-- <drawer-opener id="drawer-overlay"></drawer-opener> -->
     <scroll-top>
       <div class="scroll-to-top">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
