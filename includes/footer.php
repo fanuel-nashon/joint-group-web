@@ -5,7 +5,7 @@
             <div class="col-12 col-md-6">
             <div class="footer-widget footer-widget-brand" data-aos="fade-up" data-aos-anchor=".footer-top">
                 <a class="footer-logo" href="/index.php" aria-label="Joint Group Logo">
-                <img src="../assets/img/logo-white.png" alt="Joint Group Logo" width="189" height="32" loading="lazy">
+                <img src="../assets/img/logo/logo.png" alt="Joint Group Logo" width="189" height="32" loading="lazy">
                 </a>
                 <p class="text text-16"> Joint Group is Tanzania's leading business growth and investment facilitation firm. We connect businesses with opportunities and investors with potential. </p>
                 <ul class="social-icons list-unstyled" data-aos="fade-up" data-aos-anchor=".footer-top">

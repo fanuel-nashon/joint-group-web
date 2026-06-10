@@ -30,9 +30,18 @@
   background-color: rgba(245, 247, 250, 1);
 }
 
-/* Why-Choose-Us / Promotion section – light grey */
+/* Why-Choose-Us / Promotion section – light grey with dark text */
 .promotion {
   background-color: rgba(245, 247, 250, 1);
+  --color-background: rgba(245, 247, 250, 1);
+  --color-foreground: rgba(28, 37, 57, 1);
+  --color-foreground-heading: rgba(28, 37, 57, 1);
+  --color-foreground-subheading: rgba(93, 102, 111, 1);
+}
+
+/* Subheading badge border – needs dark tint on light bg */
+.promtion-content .subheading.subheading-bg {
+  --color-border: rgba(28, 37, 57, 0.2);
 }
 
 
@@ -91,12 +100,6 @@
   background-color: rgba(200, 65, 20, 1);
   border-color: rgba(200, 65, 20, 1);
 }
-
-/* Project content card – light-grey background */
-.project-content {
-  background-color: rgba(245, 247, 250, 1) !important;
-}
-
 
 /* ============================================================
    CONTACT PAGE

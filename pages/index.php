@@ -13,7 +13,7 @@
                 <picture class="slider-media">
                   <source media="(max-width: 575px)" srcset="../assets/img/slider/hero-575.jpg">
                   <source media="(max-width: 991px)" srcset="../assets/img/slider/hero-991.jpg">
-                  <img src="../assets/img/slider/hero-1.jpg" width="1920" height="1000" loading="eager" alt="Hero Image">
+                  <img src="../assets/img/slider/hero-1.webp" width="1920" height="1000" loading="eager" alt="Hero Image">
                 </picture>
                 <div class="slider-content">
                   <div class="container height-100 d-flex align-items-center">
@@ -68,7 +68,7 @@
                 <picture class="slider-media">
                   <source media="(max-width: 575px)" srcset="../assets/img/slider/hero2-575.jpg">
                   <source media="(max-width: 991px)" srcset="../assets/img/slider/hero2-991.jpg">
-                  <img src="../assets/img/slider/hero-2.jpg" width="1920" height="1000" loading="lazy" alt="Hero Image">
+                  <img src="../assets/img/slider/hero-2.webp" width="1920" height="1000" loading="lazy" alt="Hero Image">
                 </picture>
                 <div class="slider-content">
                   <div class="container height-100 d-flex align-items-center">
