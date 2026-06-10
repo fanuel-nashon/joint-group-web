@@ -725,7 +725,7 @@ $seo_canonical   = 'https://jointgroup.co.tz/';
       <!-- Footer Main -->
       <?php include __DIR__ . '/../includes/footer.php'; ?>
     </footer>
-    <!-- <drawer-opener id="drawer-overlay"></drawer-opener> -->
+    <drawer-opener id="drawer-overlay"></drawer-opener>
     <scroll-top>
       <div class="scroll-to-top">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
