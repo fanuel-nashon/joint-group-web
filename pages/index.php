@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $seo_title       = 'Joint Group | Business Growth & Investment Facilitation in Tanzania';
 $seo_description = 'Joint Group is a Tanzania-based business growth and investment facilitation firm helping startups, SMEs, and industries scale through strategic consultancy, marketing solutions, and international investment partnerships.';
 $seo_canonical   = 'https://jointgroup.co.tz/';
@@ -633,17 +633,17 @@ $seo_canonical   = 'https://jointgroup.co.tz/';
             <counter-up class="counter-up-wrap">
               <div class="counter-up">
                 <div class="counter-item" data-aos="fade-up" data-aos-delay="50">
-                  <h2 class="heading text-50" data-target="20"> 0 <span>k+</span>
+                  <h2 class="heading text-50" data-target="20"> 25 <span>+</span>
                   </h2>
                   <div class="text text-18 fw-500">Project completed</div>
                 </div>
                 <div class="counter-item">
-                  <h2 class="heading text-50" data-target="12"> 0 <span>k+</span>
+                  <h2 class="heading text-50" data-target="2"> 0 <span>k+</span>
                   </h2>
                   <div class="text text-18 fw-500">Happy customers</div>
                 </div>
                 <div class="counter-item" data-aos="fade-down" data-aos-delay="50">
-                  <h2 class="heading text-50" data-target="25"> 0 <span>+</span>
+                  <h2 class="heading text-50" data-target="2.5"> 0 <span>+</span>
                   </h2>
                   <div class="text text-18 fw-500">Years experiences</div>
                 </div>
